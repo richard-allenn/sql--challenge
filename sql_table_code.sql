@@ -1,9 +1,5 @@
-drop table departments;
-drop table dept_emp;
-drop table dept_manager;
-drop table employees;
-drop table salaries;
-drop table titles;
+--creating all tables
+
 
 CREATE TABLE departments (
   dept_no varchar(255) NOT NULL,
